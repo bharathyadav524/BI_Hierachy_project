@@ -1,0 +1,10 @@
+
+I recently completed a Business Intelligence project that involved analyzing sales data to gain insights into sales trends. The project began with a dataset containing order information, including an "Order Date" column. To better understand sales patterns, I needed to transform the "Order Date" column into a hierarchical structure.
+
+Using pandas, I loaded the original dataset into a DataFrame and extracted the "Order Date" column. I then converted it to a datetime format using the to_datetime function, enabling me to easily extract the Year, Month, and Quarter from the dates.
+
+Next, I created new columns for Year, Month, and Quarter and added them to the original DataFrame. This resulted in a single, unified dataset that contained all the relevant sales information. By creating a hierarchical structure from the "Order Date" column, I was able to analyze sales data by different time periods.
+
+After transforming the data, I exported the dataset and loaded it into Power BI. Using the Matrix visualization, I analyzed sales data by Year, Month, and Quarter, gaining valuable insights into sales trends and patterns. This visualization enabled me to identify seasonal fluctuations, peak sales periods, and areas for improvement.
+
+Throughout this project, I demonstrated my ability to collect, transform, and analyze data using pandas and Power BI. By creating a hierarchical structure from the "Order Date" column, I uncovered meaningful sales trends and patterns that can inform business decisions. This project showcased my skills in data manipulation, analysis, and visualization, and I'm excited to apply these skills to future projects.
